@@ -1,0 +1,6 @@
+*/node-server/build/*
+*/react-client/build/*
+.env
+.idea/
+/src/.DS_Store
+/.DS_Store

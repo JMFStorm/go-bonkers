@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Kaikki",
+    "value": "Helsinki"
+  },
+  {
+    "label": "Opiskelijat",
+    "value": "Students"
+  },
+  {
+    "label": "Kulttuuri",
+    "value": "Culture and leisure"
+  },
+  {
+    "label": "Urheilu",
+    "value": "sports"
+  },
+  {
+    "label": "Ruoka",
+    "value": "food culture"
+  },
+  {
+    "label": "Kielet",
+    "value": "languages"
+  }
+]

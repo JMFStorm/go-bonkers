@@ -1,0 +1,38 @@
+[
+  {
+    "label": "KAHVILAT",
+    "value": "Cafe"
+  },
+  {
+    "label": "RAVINTOLAT",
+    "value": "Restaurant"
+  },
+  {
+    "label": "PUISTOT",
+    "value": "Park"
+  },
+  {
+    "label": "KIRJAKAUPAT",
+    "value": "BookStore"
+  },
+  {
+    "label": "ELOKUVATEATTERIT",
+    "value": "MovieTheatre"
+  },
+  {
+    "label": "MUSEOT",
+    "value": "Museum"
+  },
+  {
+    "label": "GOLF",
+    "value": "Golf"
+  },
+  {
+    "label": "OSTOSKESKUKSET",
+    "value": "ShoppingCentre"
+  },
+  {
+    "label": "SAUNAT",
+    "value": "Sauna"
+  }
+]

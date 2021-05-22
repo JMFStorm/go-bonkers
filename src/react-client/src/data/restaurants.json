@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Ravintola Lappi",
+    "place": "Helsinki",
+    "id": 1,
+    "img": "https://qul.imgix.net/72775efc-4a23-4428-814e-de50e5d6e4ee/414803_sld.jpg?auto=format&w=1000",
+    "type": "restaurant"
+  },
+  {
+    "label": "Hesburger",
+    "place": "Helsinki",
+    "id": 2,
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0c/d9/1b/76/hesburger-rakvere-vaala.jpg",
+    "type": "fastfood"
+  },
+  {
+    "label": "Green Pub",
+    "place": "Helsinki",
+    "id": 3,
+    "img": "https://cdn.website.dish.co/media/e9/b0/940375/Green-Pub-20181120-125634.jpg",
+    "type": "bar"
+  },
+  {
+    "label": "Burger King",
+    "place": "Helsinki",
+    "id": 4,
+    "img": "https://www.levihotelspa.fi/wp-content/uploads/photo-gallery/imported_from_media_libray/bk-1.jpg",
+    "type": "fastfood"
+  }
+]

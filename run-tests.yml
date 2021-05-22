@@ -1,0 +1,31 @@
+# Node.js with React
+# Build a Node.js project that uses React.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  SECKRET_KEY: $(secretKey)
+  MONGODB_URI_PROD: $(prodUri)
+  MONGODB_URI_DEV: $(devUri)
+  MONGODB_URI_TEST: $(testUri)
+
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    cd src/react-client
+    npm install
+    CI=true npm run test
+    cd ../node-server
+    npm install
+    npm run test

@@ -1,0 +1,313 @@
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 995px) {
+  .about {
+    &__info {
+      &_address {
+        font-size: 18px;
+      }
+      &_open {
+        font-size: 18px;
+      }
+    }
+  }
+  .image_carousel {
+    min-height: 511px;
+  }
+  .footer {
+    &__date {
+      font-size: 13px;
+    }
+  }
+
+  .weather{
+    &__temp{
+      &-temp{
+        font-size: 25px;
+      }
+    }
+  }
+  .profile{
+    &__content{
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 847px) {
+  .place-list {
+    &__list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .tiimi {
+    &__block {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .image_carousel {
+    min-height: 300px;
+  }
+  .footer {
+    &__date {
+      font-size: 11px;
+    }
+  }
+
+  .about {
+    &__content{
+      flex-direction: column;
+    }
+    &__wrapper{
+      display: flex;
+      justify-content: center;
+    }
+    &__descr{
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 720px){
+  .weather{
+    &__icon{
+      height: 35px;
+    }
+    &__content{
+      &-city{
+        font-size: 15px;
+      }
+    }
+    &__icon{
+      width: 60px;
+      height: 60px;
+
+    }
+    &__temp{
+      &-temp{
+
+      }
+      &-descr{
+        font-size: 12px;
+      }
+      &-descr{
+        font-size: 12px;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 620px) {
+  .tiimi {
+    &__header {
+      font-size: 30px;
+    }
+    &__role {
+      font-size: 20px;
+    }
+    &__skills {
+    }
+  }
+  .footer {
+    display: flex;
+    &__date {
+      max-width: 160px;
+      left: 40px;
+      position: absolute;
+    }
+    &__tiimi {
+      right: 40px;
+      position: absolute;
+    }
+  }
+
+  .item{
+    padding-bottom: 60px;
+    border: none;
+    &__name, &__distance{
+      padding-left: 20px;
+    }
+  }
+  .about {
+    &__content{
+      flex-direction: column;
+    }
+    &__wrapper{
+      display: flex;
+      justify-content: center;
+    }
+    &__descr{
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 720px){
+  .weather{
+    width: 100px;
+    flex-direction: column;
+    &__icon{
+      display: none;
+    }
+  }
+  .username{
+    display: none;
+  }
+  .header{
+    &__logo{
+      margin-right: -130px;
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 526px) {
+  .about {
+    &__title {
+      position: relative;
+      padding: 0px 0 0 10px;
+      font-size: 35px;
+      &_heart {
+        position: absolute;
+        display: inline-block;
+        margin-left: 20px;
+        cursor: pointer;
+      }
+      &_favourite {
+        position: absolute;
+        font-size: 16px;
+        margin-left: 55px;
+        margin-top: 7px;
+      }
+      svg {
+        width: 30px;
+      }
+    }
+    &__img_img {
+      height: 100%;
+    }
+  }
+  .place-list {
+    &__list {
+      grid-template-columns: 1fr;
+    }
+  }
+  .tiimi {
+    &__block {
+      grid-template-columns: 1fr;
+    }
+    &__img {
+      width: 50%;
+    }
+    &__header {
+      font-size: 23px;
+    }
+    &__role {
+      font-size: 18px;
+    }
+    &__skills {
+    }
+  }
+  .tiimi {
+    &__block {
+      grid-template-columns: 1fr;
+    }
+    &__img {
+      width: 50%;
+    }
+    &__header {
+      font-size: 23px;
+    }
+    &__role {
+      font-size: 18px;
+    }
+    &__skills {
+    }
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .about {
+    &__title {
+      position: relative;
+      padding: 0 0 0 10px;
+      font-size: 35px;
+      &_heart {
+        position: absolute;
+        display: inline-block;
+        margin-left: 20px;
+        cursor: pointer;
+      }
+      &_favourite {
+        display: none;
+      }
+      svg {
+        width: 25px;
+      }
+    }
+    &__container-header{
+      flex-direction: column;
+      align-items: start;
+    }
+  }
+  .heart-wrapper{
+    margin: -20px 0 -25px -25px;
+  }
+  .footer {
+    &__date {
+      font-size: 11px;
+      max-width: 120px;
+      left: 20px;
+    }
+    &__tiimi {
+      right: 20px;
+    }
+  }
+
+  .description{
+    h1{
+      font-size: 30px;
+    }
+  }
+  .main-page-img{
+    display: none;
+  }
+
+  .place-options{
+    & > * {
+      padding: 2px 5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .footer {
+    &__date {
+      font-size: 10px;
+      max-width: 85px;
+      left: 15px;
+    }
+
+    &__tiimi {
+      right: 15px;
+    }
+
+    .main-page-img {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .about {
+      &__title {
+        position: relative;
+        padding: 0 0 0 10px;
+        font-size: 35px;
+      }
+    }
+
+  }
+}

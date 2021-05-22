@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./globals.scss";
+
+@import "blocks/placeList";
+@import "blocks/placeListItem";
+@import "blocks/header";
+@import "./blocks/notFound";
+@import "blocks/search";
+@import "blocks/aboutPage";
+@import "blocks/Heart";
+@import "blocks/loginPage";
+@import "blocks/footer";
+@import "blocks/tiimi";
+@import "blocks/userActions";
+@import "blocks/userProfile";
+
+@import "blocks/media";

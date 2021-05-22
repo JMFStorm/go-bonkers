@@ -1,0 +1,78 @@
+.header {
+  background-color: deepskyblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  &__logo {
+    //margin: auto;
+    img {
+      text-align: center;
+      max-height: 70px;
+    }
+  }
+  .button-position {
+    //position: absolute;
+    width: 200px;
+    margin: 17px 10px;
+    text-align: right;
+    //right: 10px;
+    //div{
+    //  display: flex;
+    //  flex-direction: column;
+    //  align-items: center;
+    //}
+  }
+}
+.weather{
+  width: 200px;
+  border-radius: 5px;
+  justify-content: space-around;
+  display: flex;
+  //align-items: center;
+  line-height: 1;
+  color: black;
+  &__content{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5px 0 0 5px;
+    &-city{
+      bottom: 0;
+    }
+    span{
+      font-size: 20px;
+    }
+  }
+  &__temp{
+    &-temp{
+      text-align: center;
+      font-size: 35px;
+      margin-left: 10px;
+    }
+    &-descr{
+      text-align: center;
+    }
+  }
+  &__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      width: 70px;
+      height: 70px;
+    }
+  }
+  &__temp{
+    color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+

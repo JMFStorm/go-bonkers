@@ -1,0 +1,71 @@
+@mixin Justify {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.notFound--page {
+  background-image: url("../../images/pexels-photo-3243241.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  max-width: unset;
+  padding: 0 1rem;
+
+  @include Justify();
+  color: rgba(7, 7, 7, 0.564);
+
+  .notFound--wrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    background-color: #e3e2e782;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 40px 20px 30px 20px;
+
+    .notFound--heading {
+      font-family: $errorFont;
+      font-size: 50px;
+      letter-spacing: 15px;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding-bottom: 10px;
+      color: rgba(13, 37, 84, 0.748);
+    }
+    figure {
+      @include Justify();
+      img {
+        width: 80px;
+        opacity: 0.5;
+      }
+    }
+    .notFound--text {
+      margin: auto;
+      width: 90%;
+      h4 {
+        font-size: 15px;
+        margin: 15px;
+      }
+    }
+  }
+  .notFound--button {
+    width: 80px;
+    margin: 5px auto 0px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #728aa1af;
+    padding: 10px;
+    border: none;
+    font-size: 11px;
+    border-radius: 20px;
+    &:hover {
+      cursor: pointer;
+      background-color: #ffffff50;
+      color: rgba(47, 79, 79, 0.578);
+    }
+  }
+}
