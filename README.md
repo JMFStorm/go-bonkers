@@ -1,6 +1,6 @@
 # Go Bonkers App
 
-**See this app in live action: https://go-bonkers.herokuapp.com/**
+**See this app in live action: https://go-bonkers-app.herokuapp.com/**
 
 ## About:
 
