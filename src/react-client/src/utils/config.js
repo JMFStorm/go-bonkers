@@ -1,5 +1,5 @@
 // Heroku url
-const herokuUrl = "https://go-bonkers.herokuapp.com/";
+const herokuUrl = "https://go-bonkers-app.herokuapp.com/";
 
 // Localhost url
 const localUrl = "http://localhost:4000/";

@@ -12,6 +12,4 @@ const server = http.createServer(app);
 const serverPort = port || 4000;
 
 // Listen server
-server.listen(serverPort, () => {
-  // console.log(`Bonkers App - server started on port: ${serverPort}`);
-});
+server.listen(serverPort);
